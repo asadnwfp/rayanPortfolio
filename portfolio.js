@@ -197,7 +197,7 @@ function qsa(sel, ctx) {
       alert("Please fill all fields before sending.");
       return;
     }
-    alert("Thanks, " + name + "! Your message is ready to be sent.");
+    alert("Thanks, " + name + "\n! This is a Demo Message");
     qs("#name").value = "";
     qs("#email").value = "";
     qs("#message").value = "";
