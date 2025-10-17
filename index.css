@@ -106,6 +106,10 @@ nav {
   transition: 0.25s;
 }
 
+.navlinks a.cta {
+  color: #262121;
+}
+
 .navlinks a:hover,
 .navlinks a.active {
   color: #fff;
